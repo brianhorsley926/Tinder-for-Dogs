@@ -1,0 +1,138 @@
+/* Element Selectors */ 
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat";
+}
+
+/* Class Selectors */
+.big-heading {
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+	color: white;
+}
+.small-heading {
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+.col-lg-4 {
+	text-align: center;
+}
+.container-fluid {
+	padding: 3% 15% 8%;
+}
+.feat-head {
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
+.icon {
+	color: #a6dcef;
+}
+.icon:hover {
+	color: #f2aaaa;
+}
+.navbar-brand {
+	font-size: 36px;
+	position: relative;
+	right: 18px;
+}
+.nav-link {
+	font-size: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #fff !important;
+}
+.nav-link:hover {
+	color: gray !important;
+}
+.phone {
+	transform: rotate(25deg);
+	width: 60%;
+	position: absolute;
+	right: 33%;
+	z-index: 0;
+}
+.row {
+	margin-top: 2rem;
+}
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.missy-image {
+	width: 10%;
+	height: 5.625rem;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+.press-image {
+	width: 15%;
+	margin: 20px 20px 50px 20px;
+}
+.pricing-col {
+	padding: 3% 2%;
+}
+.small-card {
+	margin-bottom: 40px;
+}
+.foot-btn {
+	 margin: 2rem 1rem 0 1rem;
+}
+.foot-icon {
+	margin: 1% 1%;
+}
+
+/* ID Selectors */
+
+#title {
+	background-color: #a6dcef;
+}
+#features {
+	padding: 3% 7%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+#testimonials {
+	text-align: center;
+	background-color: #a6dcef;
+	color: #fff;
+}
+#press {
+	background-color: #a6dcef;
+	text-align: center;
+	padding-bottom: 3%;
+}
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+#cta {
+	background-color: #a6dcef;
+	text-align: center;
+	color: #fff;
+	padding: 7% 15%;
+}
+#footer {
+	text-align: center;
+	padding: 7% 7%;
+}
+
+/* Media Query Breakpoints 
+Laptop: 1200 x 264 px
+Tablet: 880 x 264 px
+*/
+
+@media (max-width: 1028px) {
+	.phone {
+		position: static;
+		transform: rotate(0);
+	}
+	#title {
+		text-align: center;
+	}
+}
